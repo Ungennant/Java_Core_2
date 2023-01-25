@@ -27,7 +27,7 @@ public class Person {
         System.out.println("Reflection method 1: " + args);
     }
 
-    public void myMethod(String a, int ... args) {
+    public void myMethod(String a, int... args) {
         System.out.println("Reflection method 2: " + a);
         for (int arg : args) {
             System.out.println(arg);
