@@ -18,8 +18,6 @@ public class Methods {
             oos.close();
             fos.close();
         } catch (IOException e) {
-
-
         }
     }
 
